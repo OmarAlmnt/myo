@@ -1,0 +1,129 @@
+.btn_save{
+
+	background: #56c7b8;
+	width: 100%;
+	height: 30px;
+	border-radius: 10px;
+	display: none;
+}
+
+.frms_venta{
+
+	width: 94%;
+	border-radius: 5px;
+	border: 1px solid black;
+	padding: 10px;
+	background: white;
+}
+.frms_venta input{
+		font-size: 20px;
+}
+.w20 input{
+
+	width: 35%;
+	display: inline-block;
+}
+
+.w100 input{
+	width: 100%;
+}
+
+.rnc{
+
+	margin-left: 170px;
+	margin-top: -20px;
+}
+
+.nmcli{
+
+	margin-left: 520px;
+	margin-top: -20px;
+}
+
+.inpidcli{
+
+	width:100px;
+}
+
+.inpnmcli{
+
+	width: 250px;
+}
+
+.inprnc{
+
+	width: 250px;
+}
+
+.tableproductsdiv{
+	margin-top: 20px;
+	width: 88.5%;
+	padding: 10px;
+	background: white;
+	transform: translateX(6.5%);
+	border: 1px solid black;
+
+}
+.tbl_products{
+
+	border-collapse: collapse;
+	font-size: 11pt;
+	width: 90%;
+
+}
+.tbl_products th{
+
+    text-align: left;
+	padding: 7px;
+
+
+}
+
+.btn_ap{
+	display: none;
+}
+
+.bn{
+	color: green;
+}
+
+.vendedordiv{
+
+	margin-top: 20px;
+	width: 94%;
+	padding: 10px;
+	background: white;
+	border: 1px solid black;
+	height: 130px;
+}
+
+.textright{
+
+	text-align: right;
+	font-size: 20px;
+}
+
+.h1d{
+	display: none;
+}
+
+.deletep{
+	color: red;
+}
+
+.btnr{
+
+	text-align: right;
+	margin-top: -20px;
+	margin-right: 135px;
+
+}
+
+.btnr2{
+
+	text-align: right;
+	margin-top: -20px;
+	margin-right: 50px;
+	
+
+}

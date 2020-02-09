@@ -1,0 +1,37 @@
+.frm_registrar{
+	padding: 20px;
+  	border: 2px solid black;
+	width: 250px;	
+	margin-left: 400px;
+	background: white;
+	font-size: 20px;
+	margin-top: 3px;
+
+
+
+}
+
+.iwi{
+
+
+	width: 200px;
+}
+
+.frm_modal{
+
+	padding: 20px;
+  	border: 2px solid black;
+	background: white;
+	font-size: 20px;
+	margin-top: 3px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+
+}

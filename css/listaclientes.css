@@ -1,0 +1,54 @@
+.divtab{
+
+	height: 200px;
+
+}
+
+table{
+
+	border-collapse: collapse;
+	font-size: 12pt;
+	width: 100%;
+
+
+}
+
+table th {
+
+	text-align: left;
+	padding: 10px;
+	background: black;
+	color: white;
+
+}
+
+table tr {
+
+	background: #fff;
+}
+table tr:hover {
+
+	background: #ddd;
+}
+
+table td{
+
+	padding: 10px;
+
+}
+
+#b_edit {
+
+	color: #6A8CFF ;
+}
+
+#b_delete{
+
+	color: #FF6A6C;
+
+}
+
+#b_add{
+
+	color: green;
+}

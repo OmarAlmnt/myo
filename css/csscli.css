@@ -1,0 +1,34 @@
+.down{
+	
+ transform: translate(5%, 180%);
+
+}
+A:link {text-decoration: none }
+A:visited {color: white; text-decoration: none }
+A:hover { color: white;  text-decoration: none }
+*{outline:none !important;}*:focus {outline: none !important;}textarea:focus, input:focus{outline: none !important;}	a{text-decoration: none !important;outline: none !important;}
+
+.downp{
+ margin-left: 70px; 
+ margin-top: 90px;
+ font-size: 20px;
+}
+
+.margj {
+
+	margin-left: 300px;
+
+
+
+}
+.r{
+
+	margin-left: 290px;
+	position: relative;
+
+}
+
+.wd{
+	margin-top: 50px;
+	position: relative;
+}

@@ -1,0 +1,139 @@
+A:link {text-decoration: none; color: white;}
+A:visited {color: white; text-decoration: none }
+A:hover { color: white;  text-decoration: none }
+.background:before{
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  display: block;
+  background-size: 100% 100%;
+  background-image: url('https://s3.amazonaws.com/StartupStockPhotos/20140808_StartupStockPhotos/53.jpg');
+  width: 150%;
+  height: 150%;
+  top:-20px;
+  left:-20px;
+  -webkit-filter: blur(8px);
+  -moz-filter: blur(8px);
+  -o-filter: blur(8px);
+  -ms-filter: blur(8px);
+  filter: blur(8px);
+  background-repeat:no-repeat;
+}
+
+.content{
+  height: 400px;
+  width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, 30%);
+  display: block;
+  color: white;
+-webkit-box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
+-moz-box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
+box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
+  text-align:center;
+  vertical-align:middle;  
+}
+
+
+
+.x1{
+  width:200px;
+  height:150px;
+  background-color:#9CB1FF;
+  left: 0;
+  top: 0;
+  position: relative;
+  line-height:150px;
+}
+
+.x2{
+  position:absolute;
+  height:250px;
+  width:300px;
+  left:400px;
+  top:0px;
+  background-color:#484f7d;
+  line-height:250px;
+  color:black;
+}
+
+.xx4{
+
+
+  margin-top: 150px;
+  background-color: #1f3d6e !important;
+}
+
+.x3{
+  position:absolute;
+  height:250px;
+  width:200px;
+  left:0px;
+  top:150px;
+  background-color:#6694FC;
+  line-height:250px;
+}
+
+.x4{
+  position:absolute;
+  height:150px;
+  width:500px;
+  left:200px;
+  top:250px;
+  background-color:#706AF3;
+  line-height:150px;
+}
+
+.x5{
+  position:absolute;
+  height:250px;
+  width:200px;
+  left:200px;
+  top:0px;
+  background-color:#8593E6;
+  line-height:250px;
+}
+
+.block{
+  -webkit-animation:scaledown 1s linear;
+  -moz-animation:scaledown 1s linear;
+  animation:scaledown 1s linear;
+  transform-origin:50% 50%;
+  animation-fill-mode: forwards;
+}
+
+.block:hover{
+   z-index:100;
+  -webkit-animation:scale 1s linear;
+  -moz-animation:scale 1s linear;
+  animation:scale 1s linear;
+  transform-origin:50% 50%;
+  animation-fill-mode: forwards;
+}
+
+
+
+@keyframes scale{
+  0%{
+    transform:scale(1.0);
+  }
+  100%{
+    transform:scale(1.1);
+    -webkit-box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
+-moz-box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
+box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
+  }
+}
+
+@keyframes scaledown{
+  0%{
+    transform:scale(1.1);
+  }
+   100%{
+    transform:scale(1.0);
+  }
+}

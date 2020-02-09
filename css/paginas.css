@@ -1,0 +1,63 @@
+.lft{
+
+	justify-content: flex-start;
+	margin-right: 90px;
+}
+
+.wd{
+
+	width: 400px;
+}
+
+.paginas{
+width: 93.9%;
+margin-left: 70px;
+margin-top: 155px;
+color: black;
+
+}
+
+.paginas form input{
+
+height: 20px;
+
+}
+
+
+.paginas ul{
+
+
+padding: 15px;
+list-style: none;
+background: black;
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+justify-content: flex-end;
+
+}
+
+.paginas a, .seleccion {
+
+ border: 1px solid #ddd;
+ padding: 5px;
+ display: inline-block;
+ font-size: 14px;
+ text-align: center;
+ width: 35px;
+
+}
+
+.paginas a:hover{
+
+	background: #ddd;
+	color: black;
+}
+
+.seleccion{
+
+	background: white;
+	color: black;
+}
